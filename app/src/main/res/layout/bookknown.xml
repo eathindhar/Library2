@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Enter Book Name You Look For"
+        android:layout_width="match_parent"
+        android:id="@+id/textView1"
+        android:layout_height="40dp"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText1"
+        android:layout_height="50dp"
+        android:hint="Enter Book Name "
+        android:layout_marginTop="20dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="Search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView2"
+        android:textSize="24sp"
+        android:textAlignment="center" />
+</LinearLayout>
