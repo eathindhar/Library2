@@ -18,6 +18,8 @@ public class Buy extends AppCompatActivity {
     String Base_url ="https://library-69351.firebaseio.com";
     Firebase fb;
 
+    String s1="new Test1";
+
     EditText editText1;
     Button button1;
 
